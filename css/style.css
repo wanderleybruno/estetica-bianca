@@ -17,11 +17,9 @@ html, body {
     --cor3-alternativa: #AB4D59;
     --cor4-2alternativa: #5E2A31;
     --cor5-3alternativa: #5E474A;
+}
 
-
-    
-    
-    
-    
+.slider .slides .card-slide img {
+    width: 800px;
     
 }
