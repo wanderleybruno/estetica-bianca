@@ -21,6 +21,15 @@ html, body {
 
 @media screen and (max-width:680px){ 
  
-    
+    .cabecalho {
+        background-color: var(--cor-primaria);
+        height: 25px;
+    }
+
+    .cabecalho p {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        white-space: nowrap;
+        font-weight: bolder;
+    }
 
 }
