@@ -21,8 +21,6 @@ html, body {
 
 @media screen and (max-width:680px){ 
  
-    .slider .slides .card-slide img {
-    width: 100%;
-    }
+    
 
 }
