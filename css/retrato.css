@@ -9,16 +9,18 @@
 html, body {
     height: 100%;
     
-    /* background-image: linear-gradient(to top, #e3abb2, #de6474); */
+    
 }
 
 .img-fundo {
     background-image: url(../img/v378batch3-aum-04-c-memphis.jpg);
-    opacity: 0.8;
+    
     background-size: cover;
     width: 100vw;
     height: 100vh;
     position: absolute;
+    display: block;
+    background-repeat: repeat-y;
     
 }
 
@@ -117,7 +119,7 @@ html, body {
     .material-symbols-outlined {
         position: relative;
         display: inline-block;
-        margin: 45px 25px;
+        margin: 45px 20px;
         
         width: 50px;
         height: 50px;
@@ -137,6 +139,28 @@ html, body {
         height: 170px;
         display: block;
         margin: -20px auto;
+        
+    }
+
+    .descricao-foto {
+        position: absolute;
+        width: 100%;
+        
+        display: block;
+        background-color: rgba(170, 100, 170, 0.582);
+        margin-top: 25px;
+        
+        
+    }
+
+    .descricao-foto p {
+        
+        color: rgb(3, 3, 3);
+        margin: 10px ;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        line-height: 30px;
+        font-size: 14px;
+        
     }
  
 }
