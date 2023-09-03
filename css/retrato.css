@@ -155,7 +155,8 @@ html, body {
 
     .descricao-foto p {
         
-        color: rgb(3, 3, 3);
+        color: rgb(12, 12, 12);
+        font-weight: bolder;
         margin: 10px ;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         line-height: 30px;
