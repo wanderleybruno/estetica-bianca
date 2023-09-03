@@ -19,7 +19,118 @@ html, body {
     --cor5-3alternativa: #5E474A;
 }
 
-.slider .slides .card-slide img {
-    width: 800px;
+.img-fundo {
+    width: 100%;
+}
+
+.cabecalho {
+        
+    width: 100%;
+    height: 30px;
+    margin: 0 auto;
+    position: absolute;
+    animation: cabecalho 2s infinite;
+    
+    }
+
+    @keyframes cabecalho {
+
+        0% {
+            background-color: var(--cor4-2alternativa);
+        }
+
+        50% {
+            background-color: var(--cor3-alternativa);
+        }
+
+        100% {
+            background-color: var(--cor4-2alternativa);
+        }
+        
+    }
+
+.txt-animation {
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 0.6em;
+    white-space: nowrap;
+    overflow: hidden;
+    font-weight: bolder;
+    animation: txt 2s steps(60, end) infinite;
+    animation-direction: normal;
+    animation-timing-function: linear;
+}    
+
+@keyframes txt {
+
+  0% {
+    margin-top: 0px;
+    
+    
+  }
+
+  50% {
+    margin-top: 12px;
+    
+    
+  }
+
+  100% {
+    margin-top: 0px;
+    
+       
+}
+
+}
+
+.menu {
+    text-align: center;
+    font-size: 24px;
+    
+    
+}
+
+#home, #contatos, #procedimentos {
+    
+    padding: 5px;
+    font-size: 35px;
+    
+    
+
+}
+
+.material-symbols-outlined {
+    position: relative;
+    display: inline-block;
+    margin: 75px 140px;
+    width: 50px;
+    height: 50px;
+    background-color: var(--cor-primaria);
+    color: var(--cor4-2alternativa);
+    border-radius: 20%; 
+    font-style: normal;
+    font-size: 26px;
+    box-shadow: 3px 4px 10px rgba(189, 120, 184, 0.692);
+    cursor: pointer;
+    
+    
+}
+
+.material-symbols-outlined:hover {
+    background-color: var(--cor3-alternativa);
+    color: white;
+}
+
+.img-topo img {
+    position: relative;
+    width: 370px;
+    height: 370px;
+    display: block;
+    margin: 40px auto;
+    float: left;
     
 }
