@@ -127,10 +127,28 @@ html, body {
 
 .img-topo img {
     position: relative;
-    width: 370px;
-    height: 370px;
+    width: 30%;
+    margin: 5% 5%;
     display: block;
-    margin: 40px auto;
-    float: left;
+}
+
+.descricao-foto {
+    position: relative;
+    width: 50%;
+    
+    /* background-color: rgba(170, 100, 170, 0.582); */
+    
+    
+    
+}
+
+.descricao-foto p {
+        
+    color: rgb(12, 12, 12);
+    font-weight: bolder;
+    margin: 10px ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 30px;
+    font-size: 14px;
     
 }
