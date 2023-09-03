@@ -11,6 +11,8 @@ html, body {
     background-image: linear-gradient(to top, #e3abb2, #de6474);
 }
 
+
+
 :root {
     --cor-primaria: #E3ABB2;
     --cor-secundaria: #DE6474;
@@ -27,7 +29,24 @@ html, body {
         height: 30px;
         margin: 0 auto;
         position: absolute;
+        animation: cabecalho 2s infinite;
         
+        }
+
+        @keyframes cabecalho {
+
+            0% {
+                background-color: var(--cor4-2alternativa);
+            }
+
+            50% {
+                background-color: var(--cor3-alternativa);
+            }
+
+            100% {
+                background-color: var(--cor4-2alternativa);
+            }
+            
         }
 
     .txt-animation {
@@ -36,6 +55,7 @@ html, body {
         text-align: center;
         width: 100%;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
         font-size: 0.6em;
         white-space: nowrap;
         overflow: hidden;
@@ -49,16 +69,59 @@ html, body {
 
       0% {
         margin-top: 0px;
+        
+        
       }
 
       50% {
-        margin-top: 10px;
+        margin-top: 12px;
+        
+        
       }
 
       100% {
         margin-top: 0px;
-      }
         
+           
+    }
+        
+    }
+
+    .menu {
+        text-align: center;
+        font-size: 24px;
+        
+    }
+
+    #home, #contatos, #procedimentos {
+        
+        padding: 5px;
+        font-size: 35px;
+        
+        
+    
+    }
+
+    .material-symbols-outlined {
+    
+        display: inline-block;
+        margin: 45px 10px;
+        width: 50px;
+        height: 50px;
+        background-color: var(--cor-primaria);
+        color: var(--cor4-2alternativa);
+        border-radius: 20%; 
+        font-style: normal;
+        font-size: 26px;
+        
+        
+    }
+
+    .img-topo img {
+        width: 120px;
+        height: 120px;
+        display: block;
+        margin: -20px auto;
     }
  
 }
