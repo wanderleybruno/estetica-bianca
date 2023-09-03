@@ -28,33 +28,38 @@ html, body {
         margin: 0 auto;
         position: absolute;
         
-        
-    }
+        }
 
-    .cabecalho p {
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 16px;
+    .txt-animation {
         position: relative;
-        white-space: nowrap;
         margin: 0 auto;
+        text-align: center;
+        width: 100%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 12px;
+        white-space: nowrap;
+        overflow: hidden;
         font-weight: bolder;
-        animation: cabecalho-p 2s infinite;
-        color: white;
+        animation: txt 2s steps(60, end) infinite;
+        animation-direction: normal;
+        animation-timing-function: linear;
+    }    
+
+    @keyframes txt {
+
+      0% {
+        margin-top: 0px;
+      }
+
+      50% {
+        margin-top: 10px;
+      }
+
+      100% {
+        margin-top: 0px;
+      }
         
     }
-
-    @keyframes cabecalho-p {
-
-        0%   {left: 0px; height: 30px;}
-       
-        50%  { left: 450px; height: 30px;} 
-       
-        100% {left: 0px; height: 30px;}
-
-        
-    }
-
-    
-        
-    }
+ 
+}
 
