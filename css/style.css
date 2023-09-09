@@ -128,6 +128,7 @@ html, body {
 .img-topo img {
     position: relative;
     width: 30%;
+    
     margin: 5% 5%;
     display: block;
 }

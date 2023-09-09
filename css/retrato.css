@@ -171,6 +171,12 @@ html, body {
 
 @media screen and (max-width:1280px){
 
+    .img-fundo {
+        opacity: 0.9;
+        background-repeat: no-repeat, repeat-y;
+        position: absolute;
+    }
+
     .material-symbols-outlined {
         position: relative;
         display: inline;
@@ -194,14 +200,16 @@ html, body {
     
     .img-topo img {
         position: relative;
-        width: 30%;
-        margin: 5% 35%;
+        width: 45%;
+        margin: 0 auto;
         display: block;
     }
     
     .descricao-foto {
         position: relative;
         width: 75%;
+        margin: 0 auto;
+        width: 95%;
         
         /* background-color: rgba(170, 100, 170, 0.582); */
         
