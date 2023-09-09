@@ -135,6 +135,7 @@ html, body {
 .descricao-foto {
     position: relative;
     width: 50%;
+    margin: -33% 43%;
     
     /* background-color: rgba(170, 100, 170, 0.582); */
     
@@ -149,6 +150,7 @@ html, body {
     margin: 10px ;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     line-height: 30px;
-    font-size: 14px;
+    font-size: 1.3em;
+    
     
 }

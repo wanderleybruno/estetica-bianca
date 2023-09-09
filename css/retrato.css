@@ -13,8 +13,10 @@ html, body {
 }
 
 .img-fundo {
-    background-image: url(../img/v378batch3-aum-04-c-memphis.jpg);
-    
+    background-image: url(../img/v378batch3-aum-04-c-memphis.png);
+    background-size: cover;
+    background-position: top top;
+    opacity: 0.6;
     background-size: cover;
     width: 100vw;
     height: 100vh;
