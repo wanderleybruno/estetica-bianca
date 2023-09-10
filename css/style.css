@@ -155,3 +155,11 @@ html, body {
     
     
 }
+
+.logo-wpp img {
+    width: 100px;
+    position: fixed;
+    float: left;
+    bottom: 0;
+    margin: 50px;
+}

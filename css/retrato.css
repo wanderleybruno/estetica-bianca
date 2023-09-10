@@ -227,6 +227,11 @@ html, body {
         font-size: 14px;
         
     }
+
+    .logo-wpp img {
+        width: 13%;
+        margin: 20px;
+    }
     
 
 
