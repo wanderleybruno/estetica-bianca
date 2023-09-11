@@ -9,6 +9,7 @@
 html, body {
     height: 100%;
     
+    
 }
 
 :root {
@@ -19,9 +20,11 @@ html, body {
     --cor5-3alternativa: #5E474A;
 }
 
-.img-fundo {
-    width: 100%;
+.clear {
+    float: none;
 }
+
+
 
 .cabecalho {
         
@@ -148,10 +151,11 @@ html, body {
         
     color: rgb(12, 12, 12);
     font-weight: bolder;
-    margin: 10px ;
+    margin: 0px ;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     line-height: 30px;
     font-size: 1.3em;
+    position: relative;
     
     
 }
@@ -163,3 +167,74 @@ html, body {
     bottom: 0;
     margin: 50px;
 }
+
+.contato > img {
+    width: 200px;
+}
+
+.contato {
+    text-align: center;
+    margin-top: 680px;
+    position: relative;
+    display: block;
+    
+}
+
+.mobile img {
+    float: left;
+    margin: 100px 150px;
+    transition: transform 0.5s ease-in-out;
+    
+}
+
+.mobile img:hover {
+    transform: translateY(-25px);
+}
+
+.redes-sociais img {
+    width: 100px;
+    margin-left:155px;
+    margin-top: 140px;
+    border-radius: 50%;
+    display: inliblock;
+    
+
+}
+
+.redes-sociais img:hover {
+    box-shadow: 1px 1px 20px 20px pink;
+    transform: scale(1.1);
+    
+
+    
+}
+
+article {
+    position: absolute;
+    width: 50%;
+    background-color: pink;
+    margin-left: 45%;
+    margin-top: 5%;
+    padding: 30px;
+    border-radius: 25px ;
+
+}
+
+article p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2em;
+    line-height: 25px;
+    font-weight: nomral;
+}
+
+article .nome-assinatura {
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.6em;
+
+}
+
+#txt-estecitista {
+    font-size: 0.9em;
+}
+
+
