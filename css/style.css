@@ -168,6 +168,13 @@ html, body {
     margin: 50px;
 }
 
+.logo-wpp img:hover {
+   box-shadow: 1px 1px 35px 5px rgba(227, 59, 227, 0.675);
+   border-radius: 50%;
+}
+
+
+
 .contato > img {
     width: 200px;
 }
