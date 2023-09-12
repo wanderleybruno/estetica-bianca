@@ -199,13 +199,13 @@ html, body {
 }
 
 .redes-sociais img {
-    width: 100px;
-    margin-left:155px;
-    margin-top: 140px;
+    width: 5%;
+    margin-left:7%;
+    margin-top: 8%;
     border-radius: 50%;
-    display: inliblock;
+    display: inline-block;
+    max-width: 1780px;
     
-
 }
 
 .redes-sociais img:hover {
@@ -219,6 +219,7 @@ html, body {
 article {
     position: absolute;
     width: 50%;
+    
     background-color: pink;
     margin-left: 45%;
     margin-top: 5%;
@@ -231,7 +232,8 @@ article p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.2em;
     line-height: 25px;
-    font-weight: nomral;
+    font-weight: normal;
+    max-width: 1780px;
 }
 
 article .nome-assinatura {
