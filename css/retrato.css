@@ -13,15 +13,13 @@ html, body {
 
 body {
     background-image: url(../img/v378batch3-aum-04-c-memphis.png);
-    background-repeat: repeat;
-    background-size: cover;
+    background-repeat: repeat-y;
+    background-size: auto;
+    overflow-x: hidden;
+    
+    
     
 }
-
-
-
-
-
 
 
 :root {
@@ -70,7 +68,7 @@ body {
         border-radius: 20px;
         
         padding: 15px;
-        width: 90%;
+        width: 100%;
         margin: 30px auto;
         font-size: 14px;
         
@@ -78,11 +76,17 @@ body {
 
     .descricao-foto p {
         font-size: 1em;
+        padding: 20px;
     }
 
     .logo-wpp img {
-        width: 80px;
+        width: 40px;
         margin: 30px;
+        z-index: 2;
+    }
+
+    .contato {
+        margin-top: 200px auto;
     }
 
     .contato > img {
@@ -90,6 +94,18 @@ body {
     }
 
     .mobile img {
-        margin: 30px;
+        width: 80%;
+        margin: 35px;
+        
     }
+
+    .redes-sociais img {
+        width: 15%;
+        margin: 30px 25px;
+        border-radius: 50%;
+        display: inline-block;
+        
+        
+    }
+
 }
