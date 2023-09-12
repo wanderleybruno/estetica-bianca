@@ -204,7 +204,7 @@ html, body {
     margin-top: 8%;
     border-radius: 50%;
     display: inline-block;
-    max-width: 1780px;
+    
     
 }
 
@@ -233,7 +233,7 @@ article p {
     font-size: 1.2em;
     line-height: 25px;
     font-weight: normal;
-    max-width: 1780px;
+    
 }
 
 article .nome-assinatura {
