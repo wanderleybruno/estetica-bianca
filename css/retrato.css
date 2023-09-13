@@ -129,5 +129,12 @@ body {
         margin-bottom: 5px;
     }
 
+    .depoimentos {
+        display: flex;
+        width: 100%;
+        background-color: var(--cor-secundaria);
+
+    }
+
 
 }
