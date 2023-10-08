@@ -133,45 +133,42 @@ body {
     .depoimentos {
         display: flex;
         width: 100%;
+        height: 900px;
         background-color: var(--cor-secundaria);
 
     }
 
-    .procedimentos {
+    .procedimentos-container {
         margin: 1060px auto;
-        width: 100%;
-        height: 500px;
-        background-color: #efa4ab6c;
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Isso criará quantas colunas couberem na largura disponível, com no mínimo 200px de largura e ocupando espaço igualmente */
-        gap: 5px; /* Espaçamento entre as fotos */
+        width: 100%; /* Defina a largura do contêiner */
+        overflow-x: scroll; /* Habilita a rolagem horizontal */
+        white-space: nowrap; /* Impede que as fotos quebrem para a próxima linha */
     }
 
+    .procedimentos-container h1 {
+        display: flex;
+        justify-content: center; /* Centraliza horizontalmente */
+        align-items: center; /* Centraliza verticalmente */
+        width: 100%;
+        height: 70px;
+        background-color: #5E474A;
+        color: white;
+        
+
+    }
+    
+    .procedimentos {
+        display: inline-block; /* Faz com que os elementos do grid se comportem como blocos em linha */
+    }
+    
     .procedimentos .foto {
         /* Estilos para cada foto dentro do grid, você pode ajustá-los conforme necessário */
-        width: 100%;
+        width: 200px; /* Largura fixa para cada foto */
         height: auto;
         border: 1px solid #ccc;
         border-radius: 5px;
-        text-align: center;
-        margin-top: 20px;
-
     }
-
-   .procedimentos h1 {
-        background-color: #AB4D59;
-        color: #ccc;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        width: 100%;
-        padding: 20px;
-        margin: 50px auto;
-        display: block;
-        margin-top: 30px;
-        text-align: center;
-        font-size: 2.0em;
-        
-        
-    }
+    
 
         
     
