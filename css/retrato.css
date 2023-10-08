@@ -121,6 +121,7 @@ body {
     article  {
         margin: 0 auto;
         width: 100%;
+        box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.468);
         
     }
 
@@ -135,6 +136,45 @@ body {
         background-color: var(--cor-secundaria);
 
     }
+
+    .procedimentos {
+        margin: 1060px auto;
+        width: 100%;
+        height: 500px;
+        background-color: #efa4ab6c;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Isso criará quantas colunas couberem na largura disponível, com no mínimo 200px de largura e ocupando espaço igualmente */
+        gap: 5px; /* Espaçamento entre as fotos */
+    }
+
+    .procedimentos .foto {
+        /* Estilos para cada foto dentro do grid, você pode ajustá-los conforme necessário */
+        width: 100%;
+        height: auto;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        text-align: center;
+        margin-top: 20px;
+
+    }
+
+   .procedimentos h1 {
+        background-color: #AB4D59;
+        color: #ccc;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        width: 100%;
+        padding: 20px;
+        margin: 50px auto;
+        display: block;
+        margin-top: 30px;
+        text-align: center;
+        font-size: 2.0em;
+        
+        
+    }
+
+        
+    
 
 
 }

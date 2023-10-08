@@ -224,7 +224,8 @@ article {
     margin-left: 45%;
     margin-top: 5%;
     padding: 30px;
-    border-radius: 25px ;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
 
 }
 
