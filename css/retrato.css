@@ -149,7 +149,7 @@ body {
         display: flex;
         justify-content: center; /* Centraliza horizontalmente */
         align-items: center; /* Centraliza verticalmente */
-        width: 100%;
+        width: auto;
         height: 70px;
         background-color: #5E474A;
         color: white;
