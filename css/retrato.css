@@ -163,7 +163,7 @@ body {
     
     .procedimentos .foto {
         /* Estilos para cada foto dentro do grid, você pode ajustá-los conforme necessário */
-        width: 200px; /* Largura fixa para cada foto */
+        width: 150px; /* Largura fixa para cada foto */
         height: auto;
         border: 1px solid #ccc;
         border-radius: 5px;
