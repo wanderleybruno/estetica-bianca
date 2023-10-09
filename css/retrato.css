@@ -138,36 +138,33 @@ body {
 
     }
 
-    .procedimentos-container {
-        margin: 1060px auto;
-        width: 100%; /* Defina a largura do contêiner */
-       
-        white-space: nowrap; /* Impede que as fotos quebrem para a próxima linha */
-    }
-
-    .procedimentos-container h1 {
-        display: flex;
-        justify-content: center; /* Centraliza horizontalmente */
-        align-items: center; /* Centraliza verticalmente */
+    .procedimentos h2 {
+        margin-top: 10px;
+        padding: 30px;
+        font-size: 2.0em;
+        text-align: center;
         width: auto;
-        height: 70px;
-        background-color: #5E474A;
-        color: white;
-        
-
+        background-color: #DE6474;
     }
-    
+
     .procedimentos {
-        display: inline-block; /* Faz com que os elementos do grid se comportem como blocos em linha */
+        margin: 1050px auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Isso criará quantas colunas couberem na largura disponível, com no mínimo 200px de largura e ocupando espaço igualmente */
+        gap: 10px; /* Espaçamento entre as fotos */
     }
     
     .procedimentos .foto {
         /* Estilos para cada foto dentro do grid, você pode ajustá-los conforme necessário */
-        width: 150px; /* Largura fixa para cada foto */
+        width: 100%;
         height: auto;
         border: 1px solid #ccc;
         border-radius: 5px;
     }
+    
+    
+
+   
     
 
         
