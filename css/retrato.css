@@ -141,7 +141,7 @@ body {
     .procedimentos-container {
         margin: 1060px auto;
         width: 100%; /* Defina a largura do contêiner */
-        overflow-x: scroll; /* Habilita a rolagem horizontal */
+       
         white-space: nowrap; /* Impede que as fotos quebrem para a próxima linha */
     }
 
