@@ -138,28 +138,41 @@ body {
 
     }
 
-    .procedimentos h2 {
-        margin-top: 10px;
-        padding: 30px;
-        font-size: 2.0em;
-        text-align: center;
-        width: auto;
-        background-color: #DE6474;
-    }
+        .procedimentos h2 {
+            margin-bottom: 30px;
+            padding: 20px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-align: center;
+            background-color: var(--cor4-2alternativa);
+            color: white;
+            font-size: 2.0em;
+        }
+   
 
     .procedimentos {
+        width: 100%;
+        height: auto;
         margin: 1050px auto;
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Isso criará quantas colunas couberem na largura disponível, com no mínimo 200px de largura e ocupando espaço igualmente */
-        gap: 10px; /* Espaçamento entre as fotos */
+        text-align: center;
+        
+       
+        
     }
     
-    .procedimentos .foto {
+    .procedimentos .foto img {
         /* Estilos para cada foto dentro do grid, você pode ajustá-los conforme necessário */
+        margin: 30px auto;
         width: 100%;
         height: auto;
         border: 1px solid #ccc;
         border-radius: 5px;
+    }
+
+    .foto h3 {
+        background-color: var(--cor5-3alternativa);
+        color: white;
+        padding: 15px;
+        margin-bottom: -35px;
     }
     
     
