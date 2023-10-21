@@ -10,6 +10,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Hanken+Grotesk:wght@500&family=Lato:ital,wght@0,400;1,700&family=Open+Sans&display=swap" rel="stylesheet">
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+<!-- Inclua o slick-carousel CSS e JS -->
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
     <title>Bianca estética</title>
 </head>
 <body>
@@ -18,7 +25,6 @@
         <p class="txt-animation"> &#11088; "Até aqui o Senhor nos ajudou" (Samuel 7:12) &#11088; </p>
    </div>
   
-
    <header>
     
     <div class="menu">
@@ -47,7 +53,6 @@
     <a href="https://api.whatsapp.com/send?phone=5521973507126&text=Ol%C3%A1,%20em%20que%20posso%20ajudar%20?" target="_blank"><img src="img/whatsapp-logo-png.png" alt="whatsapp"></a>
    </di>
 
-   
     <div class="contato" id="redes">
         <img id="contatos" src="img/logotipo-fundo-preto.png" alt="">
         <h1>Beleza em Evolução</h1>
@@ -74,42 +79,39 @@
         <p class="nome-assinatura">Bianca Santos</p>
         <p id="txt-estecitista">Esteticista e sonhadora"</p>
 
-        
-        
     </article>
 
     <div class="procedimentos" id="procedimento-menu">
         <h2>Procedimentos</h2>
-        <div class="foto">
-            <h3>procedimento 01</h3>
-            <!-- Conteúdo da primeira foto -->
-            <img src="img/procedimento-1.png" alt="Procedimento 1">
+        <div class="carousel">
+            <div class="foto">
+                <h3>procedimento 01</h3>
+                <!-- Conteúdo da primeira foto -->
+                <img src="img/procedimento-1.png" alt="Procedimento 1">
+            </div>
+            <div class="foto">
+                <h3>procedimento 02</h3>
+                <!-- Conteúdo da segunda foto -->
+                <img src="img/procedimento-2.png" alt="Procedimento 2">
+            </div>
+            <div class="foto">
+                <h3>procedimento 03</h3>
+                <!-- Conteúdo da terceira foto -->
+                <img src="img/procedimento-3.png" alt="Procedimento 3">
+            </div>
+            <!-- Adicione mais fotos conforme necessário -->
         </div>
-        <div class="foto">
-            <h3>procedimento 02</h3>
-            <!-- Conteúdo da segunda foto -->
-            <img src="img/procedimento-2.png" alt="Procedimento 2">
+        <div class="controls">
+            <button class="prev">Anterior</button>
+            <button class="next">Próximo</button>
         </div>
-        <div class="foto">
-            <h3>procedimento 03</h3>
-            <!-- Conteúdo da segunda foto -->
-            <img src="img/procedimento-3.png" alt="Procedimento 2">
-        </div>
-        <!-- Adicione mais fotos conforme necessário -->
     </div>
-
+    
     <div class="depoimentos">
         <p></p>
 
     </div>
-    
-    
-    
-    
-        
-    
-   
 
-
+<script src="js/script.js"></script>
 </body>
 </html>
