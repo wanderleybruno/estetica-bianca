@@ -57,6 +57,9 @@ text-transform: uppercase;
 
 .botao p {
     font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-style: normal;
+    font-weight: 500;
     text-align: center;
     line-height: 65px;
     color: white;
@@ -67,6 +70,6 @@ text-transform: uppercase;
 
 .botao a {
     text-decoration: none;
-    
+
 }
 
