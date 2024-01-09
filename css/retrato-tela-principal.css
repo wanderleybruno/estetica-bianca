@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 1200px;
+}
+
+.background {
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    position: absolute;
+}
+
+.container {
+    width: 100%;
+    position: absolute;
+}
+
+
+header {
+    max-width: 428px;
+    height: 63px;
+    background-color: #fdc5f7;
+    position: relative;
+}
+
+.menu-burguer {
+    width: 48px;
+    left: 85%;
+    top: 10%;
+    position: relative;
+    
+    
+}
+
+.logo {
+    width: 40px;
+    position: relative;
+    top: 5%;
+    left: -10%;
+    border-radius: 50%;
+}
+
+.img-top img {
+    
+    position: relative;
+    max-width:428px;
+    
+}
+
+.container .sobre-mim {
+    margin-top: 24PX;
+    color: #000;
+    text-align: center;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.27px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.sobre-mim p {
+    margin: 14px auto;
+    width: 350px;
+    color: #000;
+    font-family: Open Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 138.5%; /* 18.005px */
+    letter-spacing: 0.65px;
+    text-align: justify;
+}
+
