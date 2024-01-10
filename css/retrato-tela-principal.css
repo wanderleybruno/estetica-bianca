@@ -95,10 +95,23 @@ header {
 }
 
 .servicos-esteticos img {
+    padding: 10px;
     background-size: cover;
     display: block;
     margin: 35px auto;
     max-width: 428px;
+ 
+}
+
+.servicos-esteticos h4 {
+    margin-top:-35px ;
+}
+
+.servicos-esteticos p {
+    text-align: justify;
+    margin: 15px 10px;
+    font-weight: normal;
+    position: relative;
     
     
 }
