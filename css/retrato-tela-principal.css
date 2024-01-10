@@ -23,35 +23,39 @@ html, body {
     position: absolute;
 }
 
-
 header {
     width: 100%;
     height: 63px;
     background-color: #fdc5f7;
     position: relative;
     margin: 0 auto;
+    display: flex; /* Adicione esta propriedade para usar o modelo de layout flexível */
+    justify-content: space-between; /* Distribui o espaço entre os elementos flexíveis */
+    align-items: center; /* Centraliza os itens verticalmente */
 }
 
 .menu-burguer {
     width: 48px;
-    right: -88%;
-    position: relative;
+    position: absolute;
+    top: 5px;
+    right: 15px;
     
     
     
 }
 
 .logo {
+    margin-left: 15px;
     width: 40px;
-    position: relative;
-    left: -30px;
     border-radius: 50%;
+    
 }
 
 .img-top img {
     
+    max-width: 100%;
+    height: auto;
     position: relative;
-    max-width:428px;
     margin: 0 auto;
     display: block;
     
@@ -96,7 +100,7 @@ header {
 
 .servicos-esteticos img {
     position: relative;
-    max-width: 428px;
+    max-width: 100%;
     height: 224px;
 }
 
