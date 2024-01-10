@@ -125,6 +125,7 @@ header {
 
 .rede-social p {
     font-weight: normal;
+    padding: 10px;
 }
 
 
@@ -175,26 +176,53 @@ header {
     background-color: #25d366;
     border-radius: 35px;
     border: 1px solid rgb(4, 89, 18);
-    position: absolute;
-    top: 101%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display: flex;
-    align-items: center;
+    margin: 20px 60px;
+    
 }
 
 .botao img {
     width: 40px;
-    margin-left: 10px; /* Ajuste conforme necessário */
+    margin: 5px 10px; /* Ajuste conforme necessário */
     padding: 5px;
+    position: absolute;
+    
+    
 
 }
 
 .botao p {
-    font-weight: 900;
+    font-weight: 600;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 18px;
-    margin: 0 10px;
+    margin: 13px 68px;
+    vertical-align: middle;
+    align-self:center ;
+    position: relative;
+    color: white;
+    width: 100%;
+    
+    
+}
+
+.botao-zap a {
+    text-decoration: none;
+}
+
+footer {
+    width:100%;
+    height: 100px;
+    position: absolute;
+    background-color: black;
+    
+}
+
+footer p {
+    
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
