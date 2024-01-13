@@ -25,6 +25,7 @@ html, body {
     width: 100%;
     height: auto;
     position: absolute;
+    overflow: hidden;
 }
 
 header {
@@ -62,10 +63,11 @@ header {
     margin: 0 auto;
     display: block;
     
+    
 }
 
 .container .sobre-mim, .servicos-esteticos, 
-.depoimentos, .rede-social, .duvidas{
+.depoimentos, .rede-social, .duvidas {
     position: relative;
     margin-top: 24px;
     color: #000;
