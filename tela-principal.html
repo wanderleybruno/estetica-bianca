@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/retrato-tela-principal.css">
     <link rel="shortcut icon" href="img/favicon-logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Bias estética</title>
 </head>
@@ -14,32 +15,33 @@
     
     <header class="cabecalho">
         
-        <img class="logo" src="img/WhatsApp Image 2024-01-04 at 22.48.54.jpeg" alt="logo"> 
-        <!-- <img class="menu-burguer" src="img/menu burguer.png" alt="menu">  -->
-        
+        <img class="logo" id="logotipo" onclick="clickMenu()" src="img/WhatsApp Image 2024-01-04 at 22.48.54.jpeg" alt="logo"> 
+                
         <!--logo-->
-        <!-- ************************************************************** -->
+        
+        <!-- ************************************************************************ -->
+            
+        
+        <div id="burguer"><span class="material-symbols-outlined" onclick="clickMenu()">menu</span></div>
+        
+        
+       <menu id="itens">
+            <div>
+                <ul>
+                    <li><a href="#">SOBRE MIM</a></li>
+                    <li><a href="#">SERVIÇOS ESTÉTICOS</a></li>
+                    <li><a href="#">DEPOIMENTOS</a></li>
+                    <li><a href="#">CONTATOS</a></li>
+                    <li><a href="#">FALE CONOSCO</a></li>
+                </ul>
+            </div>
+        </menu>
+
+       
 
 
-        <!-- Top Navigation Menu -->
-<div class="topnav">
-    <a href="#home" class="active">Logo</a>
-    <!-- Navigation links (hidden by default) -->
-    <div id="myLinks">
-      <a href="#">SOBRE MIM</a>
-      <a href="#">SERVIÇOS ESTÉTICOS</a>
-      <a href="#">DEPOIMENTOS</a>
-      <a href="#">CONTATOS</a>
-      <a href="#">FALE CONOSCO</a>
-    </div>
-    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-      <i class="fa fa-bars"></i>
-    </a>
-  </div>
-
-  <!-- ************************************************************************* -->
-    
+        
+        <!-- ************************************************************************* -->
 
 </header> <!-- cabecalho -->
     
