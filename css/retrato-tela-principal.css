@@ -77,7 +77,15 @@ menu ul {
     width: 100%;
     position: relative;
     margin-top: 50px;
+    animation-name: menu-animado;
+
+ 
 }
+
+
+
+
+
 
 menu ul li a {
     
@@ -87,8 +95,9 @@ menu ul li a {
     padding: 30px;
     text-decoration: none;
     list-style: none;
-    
+    font-size: 20px;
     text-align: center;
+    
     
     
 }
