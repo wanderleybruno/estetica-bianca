@@ -31,11 +31,12 @@
        <menu id="itens">
             <div>
                 <ul>
-                    <li><a href="#">SOBRE MIM</a></li>
-                    <li><a href="#">SERVIÇOS ESTÉTICOS</a></li>
-                    <li><a href="#">DEPOIMENTOS</a></li>
-                    <li><a href="#">CONTATOS</a></li>
-                    <li><a href="#">FALE CONOSCO</a></li>
+                    <li><a href="#sobre">SOBRE MIM</a></li>
+                    <li><a href="#menu-servicos">SERVIÇOS ESTÉTICOS</a></li>
+                    <li><a href="#menu-depoimentos">DEPOIMENTOS</a></li>
+                    <li><a href="#menu-duvidas">DÚVIDAS FREQUENTES</a></li>
+                    <li><a href="#menu-contatos">CONTATOS</a></li>
+                    <li><a href="#menu-fale">FALE CONOSCO</a></li>
                 </ul>
             </div>
         </menu>
@@ -51,7 +52,7 @@
     <section class="container">
         
         <div class="img-top"><img src="img/img-top1-5x.png" alt=""> </div><!--img-top-->
-        <div class="sobre-mim">
+        <div class="sobre-mim" id="sobre">
             <h2>SOBRE MIM</h2>
             <P>Sou uma esteticista apaixonada por ajudar meus clientes a realçar sua beleza natural e se sentirem incríveis em suas próprias peles. Com anos de experiência e um talento artístico, estou sempre em busca das últimas tendências e técnicas inovadoras para garantir que meus clientes saiam do meu estúdio com um sorriso no rosto.</P>
         </div> <!--sobre-mim-->
@@ -59,7 +60,7 @@
             <img src="img/bia SEO vetor.png" alt="avatar">
         </div> <!--avatar-->
 
-        <section class="servicos-esteticos">
+        <section class="servicos-esteticos" id="menu-servicos">
             <h2>SERVIÇOS ESTÉTICOS</h2>
             
             <div class="img-servicos">
@@ -115,7 +116,7 @@
 
         </section> <!-- servicos esteticos -->
 
-        <section class="depoimentos">
+        <section class="depoimentos" id="menu-depoimentos">
             
             <h2>DEPOIMENTOS DE CLIENTES</h2>
             
@@ -133,7 +134,7 @@
 
         </section>
 
-        <section class="rede-social">
+        <section class="rede-social" id="menu-contatos">
             <h2>BELEZA EM EVOLUÇÃO</h2>
             <p>Me sigam para dicas exclusivas</p>
 
@@ -156,7 +157,7 @@
 
         </section>
 
-        <div class="duvidas">
+        <div class="duvidas" id="menu-duvidas">
             <h2>DÙVIDAS FREQUENTES</h2>
             
             <div class="duvida1">
@@ -190,7 +191,7 @@
 
         </div> <!--duvidas -->
 
-        <div class="botao-zap">
+        <div class="botao-zap" id="menu-fale">
             <a href="https://api.whatsapp.com/send?phone=5521973507126&text=Gostaria%20de%20efetuar%20um%20or%C3%A7amento%20!" target="_blank">
                 <div class="botao">
                     <img src="./img/whatsapp-logo-png.png" alt="">
@@ -206,6 +207,8 @@
         
         
     </section> <!--container -->
+    <div id="topo"></div> <!-- Marca o ponto para onde o botão "Voltar ao Topo" irá rolar -->
+    <button onclick="voltarAoTopo()" id="btnVoltarTopo" title="Voltar ao Topo">Voltar ao topo</button>
     <script src="js/script.js"></script>
 </body>
 </html>
