@@ -383,13 +383,15 @@ body {
 
     section .servicos-esteticos {
         background-image: linear-gradient(to left, #df7ddd8c, #efb4ee);
-        padding-bottom: 10px;
+        border: 3px solid rgb(175, 38, 156);
+        border-radius: 30px;
+        padding-bottom: 5px;
         
     }
 
     .servicos-esteticos img {
         padding: 0 10px;
-        margin-top: 5px;
+        margin-top: 40px;
         position: relative;
         width: 498px;
         max-width: 100%;
@@ -400,12 +402,9 @@ body {
 
     section .servicos-esteticos h2 {
         
-        margin-top: 50px;
+        margin-top: 20px;
         font-size: 26px;
-        padding: 50px;
-        background-color: rgb(176, 73, 180);
-        box-shadow: 1px 1px 8px  black;
-        color: white;
+        color: rgb(109, 19, 129);
         
        }
 
