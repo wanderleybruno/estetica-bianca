@@ -24,11 +24,11 @@ body {
 
 @media screen and (min-width:841px) {
    
-    .container {
-        width:100%;
+    section.container {
+        width:1200px;
         height: auto;
-
-        
+        margin: 0 auto;
+        text-align: center;
     }
 
     header {
@@ -69,6 +69,47 @@ body {
         font-size: 13px;
 
     }
+
+
+
+  
+
+    .container .img-top img {
+        width: 100%;
+    }
+
+    .sobre-mim {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .avatar img {
+        display: inline-block;
+        width: 200px;
+        position: relative;
+        margin-right: 650px; /* Ajuste a margem conforme necessário */
+        margin-top: -350px;
+    }
+    
+    .sobre-mim h2 {
+        color: #000000;
+        font-family: 'OpenSans-Bold', sans-serif;
+        text-align: center;
+        font-size: 48px;
+        font-weight: 700;
+        position: relative;
+    }
+    
+    .sobre-mim p {
+        margin-top: 200px;
+        color: #000000;
+        font-family: caveat, Arial, Helvetica, sans-serif;
+        font-size: 33px;
+        font-weight: 400;
+        max-width: 700px; /* Alterado para max-width para garantir responsividade */
+    }
+    
 
 
         
