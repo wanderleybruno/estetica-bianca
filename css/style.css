@@ -10,11 +10,9 @@
 html,
 body {
     width: 100%;
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
-    width: 100%;
-    height: 100%;
+    justify-content: center;
+    height: 100vh;
     background-image: url(../img/background.png);
     background-size: cover;
     /* Ajuste conforme necessário */
@@ -23,19 +21,23 @@ body {
 }
 
 @media screen and (min-width:841px) {
-   
+
+
+
     section.container {
-        max-width:1200px;
+        max-width:100%;
         height: auto;
         margin: 0 auto;
         text-align: center;
     }
 
     header {
+        margin: 0 ;
         width: 100%;
         height: 100px;
         background-color:#fdc5f7 ;
-        position: absolute;
+        
+        
     }
 
     .logo {
@@ -50,40 +52,97 @@ body {
         display: none;
     }
 
+    .menu-desktop {
+        position: absolute;
+        text-align: right;
+        width: 100%;
+    
+    }
+
     .menu-desktop ul {
         margin: 40px 2%;
         position: relative;
+        display: block;
         text-align: right;
         
     }
 
     .menu-desktop ul li {
         display: inline;
-        padding: 5px;
+        padding: 10px;
         
         
     }
 
     .menu-desktop ul li a {
         text-decoration: none;
-        font-size: 13px;
+        font-size: 14px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 500;
 
     }
 
-  
+    .menu-desktop ul li a:hover {
+        color: white;
+        cursor: pointer;
+    }
 
-    .img-top img {
+    .slider {
+        margin: 0 auto;
         width: 100%;
+        height: 650px;
+        overflow: hidden;
+        position: relative;
+    }
+
+    
+    .slides {
+        width: 400%;
+        height: 100%;
+        display: flex;
+    }
+
+    .slides input {
+        display: none;
+    }
+
+    .slide {
+        width: 25%;
+        position: relative;
+    }
+
+    .slide img {
+        width:100%;
         height: auto;
+        display: block;
+        background-size: cover;
+        
+    }
+    
+    .manual-navigation {
+        position: absolute;
+        text-align: right;
+        
+        display: block;
         
         
     }
 
-    .sobre-mim {
-        margin: 50px auto;
-        justify-content: space-between;
-        align-items: center;
+    .manual-btn {
+        border: 2px solid white;
+        padding: 5px;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: 1s;
+        width: 30px;
+        
+        
+        
+
     }
+
+
+    
     
     .avatar img {
         width: 200px;
@@ -94,28 +153,40 @@ body {
         
         
     }
+
+    .sobre-mim {
+        margin: 20px auto;
+        position: relative;
+        align-items: center;
+        display: block;
+    }
     
     .sobre-mim h2 {
-        margin-top: -40px;
+        margin: 0 auto;
         color: #000000;
         font-family: 'OpenSans-Bold', sans-serif;
         text-align: center;
         font-size: 48px;
         font-weight: 700;
         
+        
     }
     
     .sobre-mim p {
-        margin: 40px auto;
+        margin: 0 auto;
         text-align: center;
         color: #000000;
         font-family: caveat, Arial, Helvetica, sans-serif;
         font-size: 33px;
         font-weight: 400;
-        max-width: 100%;
+        max-width: 80%;
         
         
         
+    }
+
+    .sobre-mim-paragrafos {
+        margin-top: 50px;
     }
 
 
