@@ -142,46 +142,52 @@ body {
     }
 
 
-    
-    
     .avatar img {
-        width: 200px;
-        height: 200px;
-        display: block;
-        margin: -200px auto;
-        margin-top: 80px;
+        display: none;
+        
+        
+    }
+
+    .avatar-desktop img {
+        margin-top: 60px;
+        width: 400px;
+        border-radius: 20px;
+        background-repeat: no-repeat;
+        box-shadow: 1px 1px 18px black;
+        
+        justify-content: left;
         
         
     }
 
     .sobre-mim {
-        margin: 20px auto;
+        margin: 60px auto;
         position: relative;
         align-items: center;
-        display: block;
+        display: flex;
+        flex-direction: column;
+        
     }
     
     .sobre-mim h2 {
-        margin: 2% auto;
+        
         color: #000000;
         font-family: 'OpenSans-Bold', sans-serif;
         text-align: center;
         font-size: 48px;
         font-weight: 700;
-        display: block;
-        
-        
-        
-    }
+        justify-content: flex-start;
+     }
     
     .sobre-mim p {
-        margin: 0 auto;
+        margin: 30px auto;
         text-align: center;
         color: #000000;
         font-family: caveat, Arial, Helvetica, sans-serif;
         font-size: 33px;
         font-weight: 400;
-        max-width: 80%;
+        max-width: 90%;
+        justify-content: right;
         
         
         
@@ -374,8 +380,9 @@ body {
         margin: 40px auto;
         display: block;
 
-
     }
+
+   
 
     section .servicos-esteticos {
         background-image: linear-gradient(to left, #df7ddd8c, #efb4ee);
@@ -577,6 +584,10 @@ body {
         display: block;
 
 
+    }
+
+    .sobre-mim .avatar-desktop img  {
+        display: none;
     }
 
     section .servicos-esteticos {
