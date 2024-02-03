@@ -641,6 +641,7 @@ body {
         /* 18.005px */
         letter-spacing: 0.65px;
         text-align: justify;
+      
     }
 
     .sobre-mim-paragrafos {
@@ -674,7 +675,6 @@ body {
     section .servicos-esteticos {
         background-image: linear-gradient(to left, #df7ddd8c, #efb4ee);
         border: 1px solid rgba(237, 135, 223, 0.408);
-        
         padding-bottom: 5px;
         
     }
@@ -687,7 +687,8 @@ body {
         max-width: 100%;
         height: 234px;
         border-radius: 5%;
-
+        transition: 0.5s;
+        transform: scale(1);
     }
 
     section .servicos-esteticos h2 {
