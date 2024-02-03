@@ -647,6 +647,8 @@ body {
         width: 100%;
         margin: 0 auto;
         font-family: caveat,Arial, Helvetica, sans-serif;
+        font-size: 22px;
+        text-align: justify;
     }
 
     .sobre-mim p {
