@@ -765,17 +765,50 @@ body {
 
   .opcao-1, .opcao-2, .opcao-3, .opcao-4 {
     display: flex;
-    flex-direction: row;
-    margin-top: 20px;
+    
+    
   }
 
+ 
+
   .opcoes {
-    margin: 50px 0px 50px 0px;
+    
+    
+    margin: 20px 5px 10px 5px;
+  }
+
+  .opcao-2, .opcao-4 {
+    flex-direction: row-reverse;
+    
+    
+  }
+
+ .opcao-1 {
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+  }
+
+  .opcao-2 {
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+  }
+
+  .opcao-3 {
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    
+  }
+
+  .opcao-4 {
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
   }
 
   .opcoes p {
-    padding: 10px;
-    text-align: left;
+    padding: 10px ;
+    width: 80%;
+    
   }
 
    
