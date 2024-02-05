@@ -758,9 +758,14 @@ body {
     padding: 5px;
   }
 
-  .opcao-1 {
+  .opcao-1, .opcao-2 {
     display: flex;
     flex-direction: row;
+    margin-top: 20px;
+  }
+
+  .opcoes p {
+    padding: 10px;
   }
 
    
