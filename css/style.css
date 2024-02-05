@@ -784,25 +784,25 @@ body {
   }
 
  .opcao-1 {
-    border-top: 2px solid black;
-    border-right: 2px solid black;
-    border-bottom: 2px solid black;
+    border-top: 2px solid #cb777e;
+    border-right: 2px solid #cb777e;
+    border-bottom: 2px solid #cb777e;
   }
 
   .opcao-2 {
-    border-left: 2px solid black;
-    border-bottom: 2px solid black;
+    border-left: 2px solid #cb777e;
+    border-bottom: 2px solid #cb777e;
   }
 
   .opcao-3 {
-    border-right: 2px solid black;
-    border-bottom: 2px solid black;
+    border-right: 2px solid #cb777e;
+    border-bottom: 2px solid #cb777e;
     
   }
 
   .opcao-4 {
-    border-left: 2px solid black;
-    border-bottom: 2px solid black;
+    border-left: 2px solid #cb777e;
+    border-bottom: 2px solid #cb777e;
   }
 
   .opcoes p {
@@ -814,7 +814,7 @@ body {
    
 
     .duvidas {
-        margin-top: 5px;
+        margin-top: 25px;
 
     }
 
@@ -829,7 +829,7 @@ body {
     .duvida1,
     .duvida3 {
         background-color: rgb(239, 152, 166);
-        border: 5px solid black;
+        
         padding: 10px;
 
     }
