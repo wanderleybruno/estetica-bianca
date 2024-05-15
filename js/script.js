@@ -1,5 +1,5 @@
 function clickMenu(){
-    var itens = document.getElementById('itens');
+    var itens = document.getElementById('itens-mobile');
     if (itens.style.display == 'block'){
         itens.style.display = 'none'
     } else {
