@@ -1,31 +1,358 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/retrato-index.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="img/favicon-logo.ico" type="image/x-icon">
-    <title>Bias Estética</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Salsa&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+    <title>Bias estética</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 </head>
+
 <body>
-    <section>
-        <h1>BEM VINDO Á</h1>
-        
-        <div class="logo">
-            <img src="img/WhatsApp Image 2024-01-04 at 22.48.54.jpeg" alt="logo">
-        </div>
-        
 
-        <div class="txt-inicio">
-            <p>Transforme sua beleza conosco! Descubra tratamentos exclusivos e experimente o luxo do autocuidado. Aproveite as ofertas especiais e agende sua experiência agora para revelar o seu melhor.</p>
+    <header class="cabecalho">
+
+        <img class="logo" id="logotipo" onclick="clickMenu()" src="img/WhatsApp Image 2024-01-04 at 22.48.54.jpeg"
+            alt="logo">
+
+        <!--logo-->
+
+        <!-- ************************************************************************ -->
+
+
+        <div id="burguer" class="menu-mobile"><span class="material-symbols-outlined" onclick="clickMenu()">menu</span>
         </div>
 
-        <div class="botao">
-            <a href="tela-principal.html">
-                <p>IR AO SITE !</p>
+
+        <menu id="itens-mobile" class="menu-mobile">
+            <div>
+                <ul>
+                    <li><a href="#sobre">SOBRE MIM</a></li>
+                    <li><a href="#menu-servicos">SERVIÇOS ESTÉTICOS</a></li>
+                    <li><a href="#menu-depoimentos">DEPOIMENTOS</a></li>
+                    <li><a href="#menu-duvidas">DÚVIDAS FREQUENTES</a></li>
+                    <li><a href="#menu-contatos">CONTATOS</a></li>
+                    <li><a href="#menu-fale">FALE CONOSCO</a></li>
+                </ul>
+            </div>
+        </menu>
+
+        <menu id="itens-desktop" class="menu-desktop">
+            <div>
+                <ul>
+                    <li><a href="#sobre">SOBRE MIM</a></li>
+                    <li><a href="#menu-servicos">SERVIÇOS</a></li>
+                    <li><a href="#menu-depoimentos">DEPOIMENTOS</a></li>
+                    <li><a href="#menu-duvidas">DÚVIDAS FREQUENTES</a></li>
+                    <li><a href="#menu-contatos">CONTATOS</a></li>
+                    <li><a href="#menu-fale">FALE CONOSCO</a></li>
+                </ul>
+            </div>
+        </menu>
+
+
+
+
+    </header> <!-- cabecalho -->
+
+    <section class="container">
+
+        <div class="slider">
+
+
+            <div class="slides">
+
+                <!-- radio buttons -->
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+                <!-- Fim radio buttons -->
+
+
+                <!-- slide imagens -->
+                <div class="slide first">
+                    <img src="img/istock-500927205.webp" alt="imagem 1">
+                </div> <!-- slide-1 -->
+                <div class="slide">
+                    <img src="img/Brow Lamination.jpg" alt="imagem 2">
+                </div> <!-- slide-1 -->
+                <div class="slide">
+                    <img src="img/istock-500927205.webp" alt="imagem 3">
+                </div> <!-- slide-1 -->
+                <div class="slide">
+                    <img src="img/istock-500927205.webp" alt="imagem 4">
+                </div> <!-- slide-1 -->
+                <!-- Fim slide imagens -->
+
+                <!-- navigation auto -->
+
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                </div>
+
+                <!-- Fim navigation auto -->
+
+
+            </div> <!--Fim slides -->
+
+            <div class="manual-navigation">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+            </div>
+
+        </div> <!-- fim slider -->
+
+
+
+        <div class="sobre-mim" id="sobre">
+            <h2>SOBRE MIM</h2>
+
+            <div class="avatar-desktop">
+                <img src="img/bianca 3 SEO.png" alt="">
+            </div>
+
+            <div class="sobre-mim-paragrafos">
+                <p>Me chamo Bianca Santos e sou uma esteticista apaixonada pela arte de realçar a beleza natural das
+                    pessoas. Com anos de experiência, busco constantemente inovações e tendências para oferecer aos meus
+                    clientes tratamentos que vão além da estética superficial.</p>
+
+                <p>Acredito na singularidade de cada indivíduo e meu objetivo é proporcionar uma experiência única em
+                    meu estúdio, onde cada cliente se sinta especial e confiante. Minha jornada é marcada por um
+                    comprometimento em criar um ambiente acolhedor, onde a estética se entrelaça com o bem-estar
+                    interior.</p>
+
+
+            </div>
+
+            <div class="avatar">
+                <img src="img/bia SEO vetor.png" alt="avatar">
+            </div> <!--avatar-->
+
+        </div> <!--sobre-mim-->
+
+
+        <section class="servicos-esteticos" id="menu-servicos">
+            <h2>SERVIÇOS ESTÉTICOS</h2>
+
+            <div class="img-servicos">
+                <img src="img/mapeamento facial 2.jpg" alt="mapeamento facial">
+                <h4><u>Mapeamento Facial</u></h4>
+                <p>Como um designer de sobrancelhas de sucesso, uma das principais técnicas que você pode utilizar é o
+                    mapeamento facial. Essa técnica permite determinar as proporções ideais para as sobrancelhas de cada
+                    cliente, garantindo um design simétrico e equilibrado.</p>
+            </div> <!--img-servicos-->
+
+            <div class="img-servicos">
+                <img src="img/micropigm2.jpg" alt="mapeamento facial">
+                <h4><u>Micropigmentação</u></h4>
+                <p>A micropigmentação, também conhecida como microblading, é uma técnica semi-permanente que utiliza
+                    lâminas finas para criar traços que imitam os pelos naturais das sobrancelhas. É uma técnica
+                    avançada que exige habilidade e treinamento específico.</p>
+            </div> <!--img-servicos-->
+
+            <div class="img-servicos">
+                <img src="img/Henna para Sobrancelhas.webp" alt="mapeamento facial">
+                <h4><u>Henna para Sobrancelhas</u></h4>
+                <p>Promove um preenchimento natural e não agressivo para a pele, não é uma técnica permanente. Portanto,
+                    se você não gostar do resultado, em poucos dias sua sobrancelha já voltará ao normal a frequência do
+                    método de sobrancelha de henna contribui para tornar os fios mais volumosos, uma vez que estimula o
+                    crescimento de novos fios.</p>
+            </div> <!--img-servicos-->
+
+            <div class="img-servicos">
+                <img src="img/Visagismo.jpg" alt="mapeamento facial">
+                <h4><u>Visagismo</u></h4>
+                <p>Aplique os princípios do visagismo no design de sobrancelhas, considerando características
+                    individuais do rosto do cliente, como formato, proporções e expressões, para criar um visual que
+                    realce a beleza única de cada pessoa.</p>
+            </div> <!--img-servicos-->
+
+            <div class="img-servicos">
+                <img src="img/Depilação com Linha (Threading).jpg" alt="mapeamento facial">
+                <h4><u>Depilação com Linha (Threading)</u></h4>
+                <p>A depilação com linha é uma técnica precisa que remove pelos em uma linha contínua, proporcionando
+                    uma definição mais nítida às sobrancelhas.</p>
+            </div> <!--img-servicos-->
+
+            <div class="img-servicos">
+                <img src="img/Técnica de Fios   (Threaded Brows).jpg" alt="mapeamento facial">
+                <h4><u>Brow Lamination</u></h4>
+                <p>Também conhecido como "laminação de sobrancelhas", é uma técnica no design de sobrancelhas que tem
+                    como objetivo alinhar e modelar os pelos das sobrancelhas de maneira mais uniforme, criando um
+                    visual mais definido e organizado. Essa técnica tem ganhado popularidade no mundo da estética e
+                    beleza.</p>
+            </div> <!--img-servicos-->
+
+
+            <div class="img-servicos">
+                <img src="img/Lash Lifting.jpg" alt="mapeamento facial">
+                <h4><u>Lash Lifting</u></h4>
+                <p>Procedimento estético projetado para curvar e levantar os cílios naturais, proporcionando um efeito
+                    de alongamento e aberturados olhos. Essa técnica é uma alternativa temporária às extensões de
+                    cílios.</p>
+            </div> <!--img-servicos-->
+
+
+            <div class="img-servicos">
+                <img src="img/Extensão de cílios.jpg" alt="mapeamento facial">
+                <h4><u>Extensão de cílios</u></h4>
+                <p>É um procedimento estético em que cílios sintéticos ou de cabelo humano são colados individualmente
+                    aos cílios naturais, proporcionando um efeito de alongamento e volume. Esse procedimento é popular
+                    para realçar a aparência dos olhos e criar um visual mais dramático sem a necessidade de máscaras de
+                    cílios diárias.</p>
+            </div> <!--img-servicos-->
+
+
+        </section> <!-- servicos esteticos -->
+
+        <section class="depoimentos" id="menu-depoimentos">
+
+            <h2>DEPOIMENTOS DE CLIENTES</h2>
+
+            <div class="depoimentos-clientes">
+                <div><img src="img/depo1.png" alt=""></div>
+            </div> <!--depoimentos-clientes-->
+
+            <div class="depoimentos-clientes">
+                <div><img src="img/depo2.png" alt=""></div>
+            </div> <!--depoimentos-clientes-->
+
+            <div class="depoimentos-clientes">
+                <div><img src="img/depo3.png" alt=""></div>
+            </div> <!--depoimentos-clientes-->
+
+        </section>
+
+        <section class="rede-social" id="menu-contatos">
+            <h2>BELEZA EM EVOLUÇÃO</h2>
+            <p>Na Bias Estética, nossa abordagem é pessoal, íntima e totalmente dedicada a você. Com Bianca, nossa única
+                profissional apaixonada e especializada, oferecemos uma experiência de estética centrada no atendimento
+                personalizado e na excelência individual.</p>
+
+            <ul class="beleza-evolucao">
+                <li>Tratamentos Personalizados</li>
+                <p>Cada serviço é cuidadosamente adaptado às suas necessidades específicas. Bianca trabalha de perto,
+                    compreendendo seus desejos e criando experiências únicas para realçar sua beleza natural.</p>
+
+                <li>Cuidado Único</li>
+                <p>Bianca dedica toda a atenção a você. Isso garante um ambiente acolhedor e relaxante, onde você se
+                    sente verdadeiramente cuidada.</p>
+
+                <li>Experiência Intimista</li>
+                <p>Na Bias Estética, não somos apenas um estabelecimento, somos um espaço íntimo onde a beleza se
+                    encontra com atenção individual. Aqui, você não é apenas mais um cliente; você é uma parte valiosa
+                    da nossa jornada.</p>
+            </ul>
+
+           
+        </section> <!-- rede-social -->
+
+        <div class="escolher-bias">
+
+            <h2>POR QUE ESCOLHER BIAS ESTÉTICA ?</h2>
+
+            <div class="opcoes">
+                <div class="opcao-1">
+                    <img src="img/Number 1.png" alt="number-1">
+                    <p>Na Bias Estética, você não é uma cliente é uma pessoa  única com necessidades e desejos específicos. Bianca dedica tempo exclusivo a cada cliente, garantindo atenção total e um   serviço completamente adaptado às suas   preferências.</p>
+                </div>
+
+                <div class="opcao-2">
+                    <img src="img/Number 2.png" alt="number-2">
+                    <p>Bianca não é apenas uma esteticista; é uma profissional dedicada com anos de experiência. Sua habilidade e conhecimento garantem que cada serviço seja realizado com maestria, proporcionando resultados excepcionais.</p>
+                </div>
+
+                <div class="opcao-3">
+                    <img src="img/Number 3.png" alt="number-3">
+                    <p>Nossa estética é um oásis de tranquilidade. A atmosfera intimista criada por Bianca oferece um espaço relaxante, permitindo que você se desconecte do mundo exterior e desfrute de uma experiência de beleza que vai além do convencional.</p>
+                </div>
+
+                <div class="opcao-4">
+                    <img src="img/Number 4.png" alt="number-4">
+                    <p>Cada tratamento na Bias Estética é totalmente personalizado. Desde o primeiro contato até o último retoque, Bianca se esforça para entender suas necessidades específicas, garantindo que cada serviço atenda às suas expectativas.</p>
+                </div>
+
+            </div> <!-- opcoes -->
+
+
+        </div>
+
+        <div class="duvidas" id="menu-duvidas">
+            <h2>DÙVIDAS FREQUENTES</h2>
+
+            <div class="duvida1">
+                <h4>QUANTO TEMPO DURA UM PROCEDIMENTO ?</h4>
+                <p>Vai depender da quantidade regiões a serem trabalhadas em cada paciente, podendo durar de 30 minutos
+                    até 1:30h.</p>
+                <div class="line"></div>
+            </div> <!-- duvida1 -->
+
+            <div class="duvida2">
+                <h4>QUAL A IDADE MÍNIMA PARA REALIZAR PROCEDIMENTO ESTÉTICO ?</h4>
+                <p>A especialista esclarece que a restrição quanto a idade para realizar procedimentos não existe. No
+                    entanto, recomenda que sejam realizados sempre em pacientes maiores de idade. “Para que possam tomar
+                    uma boa decisão sobre o momento ideal para se submeter a essas intervenções.</p>
+                <div class="line"></div>
+
+            </div> <!--duvida2 -->
+
+            <div class="duvida3">
+                <h4>EXISTEM PERIGOS EM RELAÇÃO AOS PROCEDIMENTOS ?</h4>
+                <p>Eles não oferecem PERIGO desde que sejam feitos por profissionais qualificados e capacitados, com
+                    mesclas 100% estéreis. Esses são os únicos segredos.</p>
+                <div class="line"></div>
+            </div> <!-- duvida3 -->
+
+            <div class="duvida4">
+                <h4>COMO AGENDAR UM SERVIÇO OU ORÇAMENTO ?</h4>
+                <p>Entre em contato através do botão abaixo e envie uma mensagem pelo whatsapp para garantir o seu
+                    agendamento ou para efetuar um orçamento do serviço desejado.</p>
+                <div class="line"></div>
+            </div> <!-- duvida4 -->
+
+            <h3>TIRE SUAS DÚVIDAS OU AGENDE UM ATENDIMENTO</h3>
+
+
+
+        </div> <!--duvidas -->
+
+        <div class="botao-zap" id="menu-fale">
+            <a href="https://api.whatsapp.com/send?phone=5521973507126&text=Gostaria%20de%20efetuar%20um%20or%C3%A7amento%20!"
+                target="_blank">
+                <div class="botao">
+                    <img src="img/whatsapp-logo-png.png" alt="">
+                    <p>CLICANDO AQUI !</p>
+                </div>
             </a>
         </div>
-        
-    </section>
+
+
+        <footer>
+            <p>Todos os serviços, imagens e conteúdo deste site são propriedade exclusiva de bias estética. Garantimos
+                excelência e qualidade em cada experiência. Nenhuma reprodução permitida sem autorização.</p>
+        </footer>
+
+
+    </section> <!--container -->
+    <div id="topo"></div> <!-- Marca o ponto para onde o botão "Voltar ao Topo" irá rolar -->
+    <button onclick="voltarAoTopo()" id="btnVoltarTopo" title="Voltar ao Topo">Voltar ao topo</button>
+    <script src="js/script.js"></script>
 </body>
-</html> 
+
+</html>
