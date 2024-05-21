@@ -107,6 +107,7 @@ body {
         width: 400%;
         height: 100%;
         display: flex;
+        
     }
 
     .slides input {
@@ -129,16 +130,17 @@ body {
     
     .manual-navigation {
         position: absolute;
-        bottom: 10px; /* Ajuste a posição vertical conforme necessário */
+        bottom: 20px; /* Ajuste a posição vertical conforme necessário */
         width: 100%; /* Para garantir que a largura não interfira no posicionamento */
+        
     }
     
     .manual-btn {
         
-        padding: 15px;
+        padding: 0px 10px;
+        border-radius:50% ;
         cursor: pointer;
         transition: 1s;
-        
         background-color: rgb(255, 255, 255);
         margin-right: 5px; /* Espaçamento entre os botões, ajuste conforme necessário */
     }
@@ -467,6 +469,7 @@ body {
         height: auto;
         position: absolute;
         overflow: hidden;
+        
 
     }
 
@@ -595,24 +598,32 @@ body {
     
     .manual-navigation {
         position: absolute;
-        text-align: right;
+        left: 50%;
+        transform: translateX(-50%);
         display: block;
-        
+        bottom: 25px;
         
     }
+    
 
     .manual-btn {
-        border: 2px solid white;
-        padding: 5px;
-        border-radius: 10px;
+        padding: 0px 10px;
+        background-color: #ffffff;
         cursor: pointer;
-        transition: 1s;
-        width: 30px;
+        border-radius: 50%;
+        
+        
+        
+        
      
     }
 
     .manual-btn:not(:last-child){
         margin-right: 40px;
+    }
+
+    label.manual-btn {
+        
     }
 
 
@@ -631,6 +642,7 @@ body {
         line-height: normal;
         letter-spacing: -0.27px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        z-index: 2;
 
     }
 
@@ -831,6 +843,7 @@ body {
 
     .duvidas h4 {
         padding: 10px;
+        font-size: 19px;
     }
 
     .duvida1,
@@ -907,7 +920,8 @@ body {
     footer {
         width: 100%;
         margin-top: 40px;
-        padding: 15px;
+        padding: 10px;
+        padding-bottom: 40px;
         bottom: 0;
         /* Fixa o rodapé na parte inferior da página */
         background-color: black;
